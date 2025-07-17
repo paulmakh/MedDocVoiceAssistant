@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Streamlit RAG App",
+			"type": "shell",
+			"command": "streamlit run rag_app.py",
+			"group": "build",
+			"isBackground": true,
+			"args": [],
+			"problemMatcher": []
+		}
+	]
+}

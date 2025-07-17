@@ -1,0 +1,15 @@
+{
+    "python.defaultInterpreterPath": "python",
+    "python.terminal.activateEnvironment": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "python.debugging.fastapi": true,
+    "python.debugging.flaskDebugging": true,
+    "files.associations": {
+        "*.py": "python"
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    }
+}
